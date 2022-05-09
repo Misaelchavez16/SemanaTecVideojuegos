@@ -1,6 +1,6 @@
 """
 Juego: Paint
-Programador 1: 
+Programador 1: Rodrigo García Estrada
 Programador 2: Misael Chavez Ramos
 
 Fecha: 9 / mayo / 2022
@@ -34,7 +34,16 @@ def square(start, end):
 
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    color(tup)
+    up()
+    forward(10)
+    down()
+    begin_fill()
+
+    for count in range(36):
+        left(10)
+        forward(5)
+    end_fill()
 
 
 def rectangle(start, end):
@@ -99,6 +108,8 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+tup=(0.9, 0, 0.9)
+onkey(pencolor(tup), 'P')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
