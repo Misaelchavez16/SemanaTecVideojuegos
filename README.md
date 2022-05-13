@@ -356,6 +356,7 @@ Imagenes con Links a los repositorios de los GitHubs de cada uno de los juegos:
 ![image](https://user-images.githubusercontent.com/75141227/168401777-4284385a-5ec8-47f7-b216-f9c4a7d39d57.png)
 
 Link repositorio Memoria: https://github.com/RodrigoGE9772/MemoryGameSemanaTec.git
+
 Link repositorio serpiente: https://github.com/RodrigoGE9772/SnakeGameSemanTec.git
 Link repositorio Cannon: https://github.com/RodrigoGE9772/PacManGameSemanaTec.git
 Link repositorio Pacman: https://github.com/RodrigoGE9772/PacManGameSemanaTec.git
