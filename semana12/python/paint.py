@@ -31,7 +31,7 @@ def square(start, end):
 
     end_fill()
 
-
+#funcion para dibujar un circulo
 def circle(start, end):
     """Draw circle from start to end."""
     color(tup)
@@ -45,7 +45,7 @@ def circle(start, end):
         forward(5)
     end_fill()
 
-
+#Se crea un ciruclo con la altura igual a la mitad de su longitud
 def rectangle(start, end):
     """Draw rectangle from start to end."""
     up()
@@ -56,16 +56,16 @@ def rectangle(start, end):
     
     forward(end.x - start.x)
     left(90)
-    forward(end.x - (2/start.x))
+    forward(end.x - (start.x/2))
     left(90)
     forward(end.x - start.x)
     left(90)
-    forward(end.x - (2/start.x))
-    left(90)
-
+    forward(end.x - (start.x/2))
+    
+    
     end_fill()
 
-
+#funcion para crear un triangulo equilatero
 def triangle(start, end):
     """Draw triangle from start to end."""
     up()
