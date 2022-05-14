@@ -359,7 +359,7 @@ Link repositorio Memoria: https://github.com/RodrigoGE9772/MemoryGameSemanaTec.g
 
 Link repositorio serpiente: https://github.com/RodrigoGE9772/SnakeGameSemanTec.git
 
-Link repositorio Cannon: https://github.com/RodrigoGE9772/PacManGameSemanaTec.git
+Link repositorio Cannon: https://github.com/RodrigoGE9772/CannonGameSemanaTec.git
 
 Link repositorio Pacman: https://github.com/RodrigoGE9772/PacManGameSemanaTec.git
 
